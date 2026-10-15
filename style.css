@@ -1,0 +1,42 @@
+/* Custom Portfolio Styles */
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Inter', sans-serif;
+background-color: #070a13;
+color: #f8fafc;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+width: 8px;
+}
+
+::-webkit-scrollbar-track {
+background: #070a13;
+}
+
+::-webkit-scrollbar-thumb {
+background: #1e293b;
+border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #334155;
+}
+
+/* Glassmorphism & Card Utilities */
+.glass-panel {
+background: rgba(15, 23, 42, 0.7);
+backdrop-filter: blur(16px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Smooth Transition Utilities */
+.transition-all {
+transition-property: all;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 300ms;
+}
